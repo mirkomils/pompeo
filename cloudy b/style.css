@@ -1,0 +1,725 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+header {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 187px;
+    background: url("./img/header_bg.png") no-repeat center / cover;
+}
+
+header nav {
+    width: 100%;
+    margin-bottom: 170px;
+
+}
+
+header nav a.logo {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+header nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li:first-of-type {
+    margin: 0px;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+header nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+header nav .cad {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav .cad ul li {
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+header nav .cad button {
+    background: transparent;
+    padding: 11px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+header .header_title {
+    width: 100%;
+    text-align: center;
+}
+
+header .header_title h1 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+header .header_title p {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+header .header_title button {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    padding: 17px 50px;
+    border: none;
+    background: white;
+    border-radius: 6px;
+}
+
+.eazy {
+    max-width: 100%;
+    padding: 95px 0px;
+}
+
+.eazy h2 {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.eazy p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+
+.eazy a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ED4C5C;
+
+}
+
+.features {
+    max-width: 100%;
+    background: #FAFAFA;
+    padding-top: 60px;
+}
+
+h3.pick {
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 60px;
+    color: #000000;
+}
+
+.features .box {
+    position: relative;
+    margin: auto;
+    margin-bottom: 320px;
+}
+
+.features .all {
+    position: absolute;
+    bottom: -45%;
+    left: 28px;
+    transform: rotate(-50% -50%);
+    margin: auto;
+    padding: 33px;
+    background-color: #fff;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.features .all h4 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.features .all p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+
+}
+
+.features .all a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #ED4C5C;
+
+}
+
+.Technology {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.Technology h5 {
+    margin-top: -65px;
+}
+
+.stay {
+    max-width: 100%;
+    padding: 95px 0px;
+    background: #ED4C5C;
+}
+
+.stay h4 {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.stay p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+
+}
+
+.stay .icon img {
+    margin-right: 30px;
+}
+
+.contact {
+    padding-top: 110px;
+    padding-bottom: 80px;
+
+}
+
+.contact h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 50px;
+
+}
+
+.contact p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+
+.form-control {
+    padding: 20px 30px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.form-select {
+    padding: 20px 30px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    padding: 16px 34px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+footer {
+    max-width: 100%;
+    padding: 85px 0px;
+    background: #FAFAFA;
+    text-align: left;
+}
+
+footer ul li {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+footer ul li:first-of-type {
+    margin-bottom: 20px;
+}
+
+footer ul li a:hover {
+    color: crimson;
+}
+
+footer ul li i {
+    margin-left: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+
+footer p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+
+}
+
+.Technology .der {
+    max-width: 100%;
+}
+
+footer .col-md-10 {
+    margin-top: 80px;
+}
+
+@media (max-width:1199px) {
+    body {
+        max-width: 100%;
+    }
+
+    header nav ul {
+        display: flex;
+        margin: 20px 0px;
+    }
+
+    header nav ul li {
+        margin: 0px 5px;
+    }
+
+    header nav .cad button {
+        background: transparent;
+        padding: 9px 29px;
+    }
+
+    .features .all {
+        right: 10%;
+        left: 10%;
+    }
+
+    .features .box {
+        position: relative;
+        margin: auto;
+        margin-bottom: 212px;
+    }
+}
+
+@media (max-width:991px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav .cad {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 79px;
+        background: url(./img/header_bg.png) no-repeat center / cover;
+    }
+
+    header nav {
+        width: 100%;
+        margin-bottom: 63px;
+    }
+
+    header .header_title h1 {
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 61px;
+        line-height: 32px;
+    }
+
+    header .header_title p {
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    header .header_title button {
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #ED4C5C;
+        padding: 13px 50px;
+    }
+
+    .eazy {
+        max-width: 100%;
+        text-align: center;
+        padding: 95px 0px;
+    }
+
+    .features {
+        max-width: 100%;
+        background: #FAFAFA;
+        padding-top: 47px;
+    }
+
+    h3.pick {
+        text-align: center;
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 41px;
+        color: #000000;
+    }
+
+    .features {
+        max-width: 100%;
+        background: #FAFAFA;
+        padding-top: 47px;
+        text-align: center;
+    }
+
+    .stay {
+        max-width: 100%;
+        padding: 95px 0px;
+        text-align: center;
+        background: #ED4C5C;
+    }
+
+    .contact h2 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1px;
+        color: #000000;
+        margin-bottom: 50px;
+    }
+
+    footer {
+        max-width: 100%;
+        padding: 85px 0px;
+        background: #FAFAFA;
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width:767px) {
+    header nav .cad button {
+        background: transparent;
+        padding: 5px 14px;
+        border: 1px solid #FFFFFF;
+        border-radius: 6px;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    header .header_title h1 {
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 13px;
+    }
+}
+
+@media (max-width:575px) {
+    header {
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 14px;
+    }
+
+    header nav ul {
+        display: flex;
+        margin: 1px 0px;
+    }
+
+    header nav .cad {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    header nav {
+        width: 100%;
+        margin-bottom: 27px;
+    }
+
+    header .header_title h1 {
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 26px;
+        line-height: 0px;
+    }
+
+    header .header_title p {
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    header .header_title button {
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #ED4C5C;
+        width: 100%;
+        padding: 8px 12px;
+    }
+
+    .eazy {
+        max-width: 100%;
+        text-align: center;
+        padding: 14px 0px;
+    }
+
+    .eazy h2 {
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 12px;
+        color: #000000;
+    }
+
+    .eazy p {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 140%;
+        text-align: justify;
+        color: #000000;
+    }
+
+    .features {
+        max-width: 100%;
+        background: #FAFAFA;
+        padding-top: 7px;
+        text-align: center;
+    }
+
+    h3.pick {
+        text-align: center;
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 43px;
+        margin-bottom: 10px;
+        color: #000000;
+    }
+
+    .features .box {
+        position: relative;
+        margin: auto;
+        margin-bottom: 124px;
+    }
+
+    .Technology {
+        width: 100%;
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+
+    .stay {
+        max-width: 100%;
+        padding: 26px 0px;
+        text-align: center;
+        background: #ED4C5C;
+    }
+
+    .stay p {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 140%;
+        text-align: justify;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 23px;
+    }
+
+    .stay h4 {
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    .contact {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .contact h2 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 1px;
+        color: #000000;
+        margin-bottom: 26px;
+    }
+
+    .contact p {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        text-align: justify;
+        color: #000000;
+    }
+
+    footer {
+        max-width: 100%;
+        padding: 35px 0px;
+        background: #FAFAFA;
+        text-align: inherit;
+    }
+
+
+}
+
+/* xxl-1222
+xl-992-1199
+lg-768-991
+md-576-767
+sm-320-575 */
