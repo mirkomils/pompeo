@@ -1,0 +1,884 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: linear-gradient(113.59deg, rgba(239, 239, 239, 0) -2.01%, rgba(239, 239, 239, 0.2) 103.74%);
+    backdrop-filter: blur(388.5px);
+}
+
+header {
+    width: 100%;
+
+}
+
+header nav {
+    padding: 55px 0px 100px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a:hover {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF6838;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #363853;
+}
+
+header a.logo:hover {
+    color: yellow;
+    background-color: yellowgreen;
+    border-radius: 5%;
+}
+
+header a.logo {
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+
+header a.logo span {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #FF6838;
+
+}
+
+header button {
+    padding: 14px 28px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 5px;
+
+}
+
+header button:hover {
+    background: red;
+    color: #000;
+}
+
+header .header_title {
+    width: 100%;
+    margin-bottom: 95px;
+}
+
+header .header_title h1 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 78px;
+    text-transform: capitalize;
+    color: #363853;
+    margin-bottom: 25px;
+}
+
+header .header_title h1 span {
+    color: rgba(255, 122, 80, 1);
+}
+
+header .header_title p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+
+}
+
+header .header_title .app {
+    width: 100%;
+}
+
+header .header_title .app a {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(54, 56, 83, 1);
+    margin-left: 30px;
+}
+
+section.our {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+h2:hover {
+    color: red;
+}
+
+h2 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: capitalize;
+    color: #363853;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2 span:hover {
+    color: yellow;
+}
+
+h2 span {
+    color: rgba(255, 122, 80, 1);
+}
+
+section.our .box {
+    padding: 14px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+section.our .box:hover {
+    background: #FF7A50;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+section.our .box a {
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #363853;
+}
+
+section.our .box a:hover {
+    color: white;
+}
+
+section.our .box svg path {
+    fill: #363853;
+}
+
+section.our .box svg path:hover {
+    fill: white;
+}
+
+section.our .card {
+    padding: 0px 20px 20px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section.our .card p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #363853;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+section.our .card button {
+    border: none;
+    padding: 7px 10px;
+    background: #FF7A50;
+    border-radius: 2px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+main.stay {
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+main.stay .at {
+    width: 100%;
+}
+
+main.stay .col-md-6 img {
+    width: 100%;
+}
+
+main.stay .at h2 {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+main.stay .at p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+main.stay .at h6 {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+}
+
+main.stay .at h6 img {
+    margin-right: 35px;
+}
+
+main.stay .at h6:first-of-type img:first-of-type {
+    margin-right: 20px;
+}
+
+main.stay .at h6:last-of-type img:last-of-type {
+    margin-right: 30px;
+}
+
+main.stay .at h6:last-of-type {
+    margin-bottom: 50px;
+}
+
+main.stay .at button {
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 30px 30px 1px 30px;
+    border: none;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 17px 44px;
+}
+
+main.restarant {
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+
+main.restarant .food {
+    width: 100%;
+    background: white;
+    border-radius: 53px 5px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+main.restarant .food h5 {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #363853;
+    padding: 20px 20px 15px;
+}
+
+main.restarant .food p {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+main.restarant .food p img {
+    margin-right: 10px;
+}
+
+main.restarant .food p button {
+    background: #FF7A50;
+    box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+    border-radius: 20px 20px 0px 20px;
+    padding: 3px 30px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+}
+
+main.mobile {
+    width: 100%;
+    margin-bottom: 160px;
+    text-align: center;
+}
+
+main.mobile .it h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+main.mobile .it p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+main.saying {
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+main.saying .efood p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    color: #363853;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+
+/* main.saying .efood .pok {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 109px;
+    letter-spacing: 0.5px;
+
+    color: #DDDDDD;
+
+} */
+
+main.saying .efood p span {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 109px;
+    letter-spacing: 0.5px;
+    color: #DDDDDD;
+}
+
+main.saying .efood .pas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main.saying .efood .pas h6 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7A50;
+}
+
+main.saying .efood .pas h6 span {
+    display: block;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAAAAA;
+    margin-top: 20px;
+}
+
+main.saying .efood .pas .icon i {
+    color: #FF7A50;
+    margin-left: 50px;
+}
+
+footer {
+    width: 100%;
+    /*   border-bottom: 5px solid #969696; */
+}
+
+footer .offer {
+    max-width: 100%;
+    background: url(./img/r.png) no-repeat;
+    padding: 60px 0px 80px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer .offer h3 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+footer .offer p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+footer .offer form {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .offer form input {
+    border: none;
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    background: transparent;
+    padding: 1px;
+}
+
+footer .offer form input:focus {
+    outline: none;
+}
+
+footer .offer form button {
+    background: #FF7A50;
+    border-radius: 70px;
+    padding: 15px 25px;
+    border: none;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+footer .offer form button svg {
+    margin-right: 10px;
+}
+
+
+
+footer ul li a {
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    color: #37383D;
+}
+
+footer p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #37383D;
+    margin-bottom: 15px;
+
+}
+
+footer h6 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+footer h6 span {
+    color: #FF7A50;
+}
+
+footer .red {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-top: 35px;
+    margin-bottom: 35px;
+    border-top: 2px solid #969696;
+    align-items: center;
+}
+
+footer .red p {
+    padding: 0;
+    margin: 0;
+
+}
+
+footer .red ul {
+    display: flex;
+}
+
+footer .red ul li {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+    margin-left: 50px;
+}
+
+@media (max-width:1999px) {
+    main.restarant .food p button {
+        margin-left: 0px;
+    }
+
+    header .header_title h1 {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 55px;
+    }
+}
+
+@media (max-width:991px) {
+    header button {
+        padding: 14px 28px;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    header nav {
+        padding: 19px 0px 31px;
+        display: flex;
+        align-items: center;
+    }
+
+    header .header_title h1 {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    header .header_title .app a {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: rgba(54, 56, 83, 1);
+        margin-left: 0px;
+    }
+
+    h2 {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 36px;
+
+    }
+
+    main.stay .at p {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    main.stay .at h2 {
+        margin-bottom: 10px;
+    }
+
+    main.stay .at h6 {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    main.stay .at button {
+        background: #FF7A50;
+        box-shadow: 0px 22px 40px rgb(255 104 56 / 19%);
+        border-radius: 30px 30px 1px 30px;
+        border: none;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding: 7px 44px;
+    }
+
+    main.restarant {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    main.mobile .it p {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+
+    }
+
+    main.mobile {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    main.saying .efood p {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        color: #363853;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    main.saying {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    footer .offer form {
+        max-width: 597px;
+        margin: auto;
+    }
+
+    footer .offer {
+        max-width: 100%;
+        background: url(./img/r.png) no-repeat;
+        padding: 60px 0px 80px;
+        text-align: center;
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        text-align: center;
+    }
+
+    main.stay .at h2 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    main.stay .at h6 {
+        font-family: 'Rubik';
+        font-weight: 400;
+        text-align: start;
+        font-size: 16px;
+    }
+
+    main.stay {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    main.mobile .it h2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    footer .offer h3 {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 47px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    footer .offer p {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    footer .offer form {
+        max-width: 480px;
+        margin: auto;
+    }
+
+    footer .offer form button {
+        background: #FF7A50;
+        border-radius: 70px;
+        padding: 10px 15px;
+    }
+
+    .col-auto {
+        flex: 0 0 auto;
+        text-align: left;
+        width: auto;
+    }
+
+    footer p {
+        font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 3px;
+        color: #37383D;
+        margin-bottom: 15px;
+    }
+
+    footer .red ul {
+        margin: 0;
+    }
+
+
+}
+
+@media (max-width:767px) {
+    footer .offer form button {
+        background: #FF7A50;
+        border-radius: 70px;
+        padding: 0px 15px;
+    }
+
+    footer .offer form button {
+        border: none;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    footer .offer form input {
+        border: none;
+        text-align: center;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    footer .red ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .offer p {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 21px;
+        color: #FFFFFF;
+        opacity: 0.8;
+        margin-bottom: 14px;
+    }
+
+    footer .offer h3 {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 47px;
+        color: #FFFFFF;
+        margin-bottom: 0px;
+    }
+
+    footer .offer {
+        max-width: 100%;
+        background: url(./img/r.png) no-repeat;
+        padding: 20px 0px 35px;
+    }
+
+    footer p {
+        font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 3px;
+        color: #37383D;
+        margin-bottom: 15px;
+    }
+
+    footer .offer form {
+        max-width: 285px;
+        margin: auto;
+    }
+}
+
+/* xxl-1222
+xl-992-1199
+lg-768-991
+md-576-767
+sm-320-575 */
