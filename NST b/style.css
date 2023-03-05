@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+header {
+    max-width: 100%;
+    background: url("./img/BG\ \(1\).png") no-repeat center / cover;
+    padding: 90px 0px 150px;
+}
+
+header nav {
+    width: 100%;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+header nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #2699BC;
+
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+header nav ul li a:hover::before {
+    left: 0;
+    transition: 1s;
+    top: 0;
+    bottom: 0;
+}
+
+header nav ul li a:hover::after {
+    transition: 1s;
+    left: 0;
+    bottom: 0;
+}
+
+header nav ul li a::after,
+header nav ul li a::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    color: green;
+}
+
+header nav ul li a::before {
+    left: -200px;
+}
+
+header a.logo {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2699BC;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header .header_title {
+    width: 100%;
+}
+
+header .header_title h1 {
+    font-family: 'SF Pro Display';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    color: #F4FDFC;
+    margin-bottom: 90px;
+
+}
+
+header .header_title p {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #2699BC;
+    margin-bottom: 90px;
+}
+
+header .header_title form {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .header_title form input:hover {
+    color: red;
+    background-color: green;
+
+}
+
+header .header_title form input {
+    padding: 25px 34px;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B3E3EF;
+    border: none;
+}
+
+header .header_title form input:focus {
+    outline: none;
+}
+
+header .header_title form button:hover {
+    background: #000;
+    color: white;
+}
+
+header .header_title form button {
+    padding: 18px;
+    background: #F03E30;
+    font-family: 'SF Pro Display';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F4FDFC;
+    border: none;
+
+}
+
+header .header_title .col-xl-3 {
+    margin-top: 300px;
+    display: block;
+}
+
+header .header_title .col-xl-3 i {
+    font-size: 24px;
+    height: 24px;
+
+}
+
+header .header_title .col-xl-12 i .fa-brands {
+    background: #2699BC;
+}
+
+header .header_title .col-xl-8 {
+    position: relative;
+}
+
+header .header_title .col-xl-8 img {
+    position: absolute;
+    position: absolute;
+    left: 27px;
+    bottom: -500px;
+
+}
+
+@media (max-width: 1200px) {
+    header .header_title .col-xl-8 img {
+        display: none;
+    }
+
+    header .col-xl-3 {
+        text-align: center !important;
+    }
+
+    header .col-xl-8 {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0px;
+    }
+
+    header {
+        margin: 0;
+        padding: 30px 0px;
+    }
+
+    header nav {
+        padding: 0;
+    }
+
+    header .header_title h1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    header .header_title p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    header .header_title .col-xl-3 {
+        margin-top: 50px;
+
+    }
+
+    header .header_title .col-xl-3 i {
+        font-size: 30px;
+        color: blue;
+    }
+}
+
+@media (max-width: 768px) {
+    header .header_title form input {
+        padding: 15px 20px;
+
+    }
+
+    header .header_title form button:hover {
+        background: #000;
+        color: white;
+        border: 1px solid red;
+    }
+
+    header .header_title form input:hover {
+        color: red;
+        background-color: green;
+        outline: 1px solid red;
+    }
+
+    header .header_title form button {
+        padding: 15px;
+        background: #F03E30;
+        font-family: 'SF Pro Display';
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 30px;
+        color: #F4FDFC;
+        border: none;
+
+    }
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin-left: 10px;
+    }
+
+    header .header_title form {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    header .header_title form button {
+        padding: 15px;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 15px;
+        width: 100%;
+    }
+
+    header .header_title form input {
+        padding: 10px 15px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+
+
+    }
+}
+
+@media (max-width: 320px) {
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin-left: 10px;
+    }
+
+    header .header_title form input {
+        padding: 10px 15px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+
+
+    }
+
+    header .header_title form button {
+        padding: 15px;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 15px;
+        width: 100%;
+    }
+
+    header .header_title form {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+}
