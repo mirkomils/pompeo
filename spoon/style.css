@@ -1,0 +1,554 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    object-fit: cover;
+}
+
+header {
+    width: 100%;
+    background: url("./img/IMAGE\ \(3\).png") no-repeat center / cover;
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav a.logo {
+    background: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+header nav ul li {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+
+}
+
+header nav ul li.abo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    padding-left: 40px;
+}
+
+header nav ul li.abo::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #FFFFFF;
+    margin-right: 40px;
+}
+
+header nav ul li button {
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    background: transparent;
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 11px 17px;
+    color: #FFFFFF;
+}
+
+header .header_title {
+    width: 100%;
+    margin-top: 130px;
+    text-align: center;
+}
+
+header .header_title h1 {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 78px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+
+}
+
+header .header_title p {
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+
+}
+
+header .header_title button {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #5AB963;
+    border-radius: 4px;
+    border: none;
+    padding: 15px 30px;
+}
+
+section.prom {
+    width: 100%;
+    padding: 120px 0px;
+}
+
+section.prom p {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+section.prom p span {
+    font-weight: 100;
+}
+
+section.prom .box {
+    background: #FAFAFA;
+    padding: 50px;
+}
+
+section.prom .box h6 {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+section.prom .box p {
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+
+}
+
+main.egg {
+    padding: 0px 30px;
+
+}
+
+main.illud {
+    width: 100%;
+    text-align: center;
+    padding: 115px 0px 0px;
+}
+
+main.illud p {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 6px;
+
+}
+
+main.illud a {
+    text-decoration: none;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #5AB963;
+    display: block;
+    margin-bottom: 110px;
+}
+
+main.illud p span {
+    font-weight: 100;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #FAFAFA;
+}
+
+main.tempor {
+    width: 100%;
+    padding: 120px 0px;
+}
+
+main.tempor h2 {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 25px;
+
+}
+
+main.tempor .yut:first-of-type {
+    margin-left: 100px;
+}
+
+main.tempor .tuy {
+    margin-right: 100px;
+    margin-left: 0px;
+}
+
+main.tempor h2 span {
+    font-weight: 100;
+}
+
+main.tempor p {
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+    padding: 0;
+    margin: 0;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+main.tempor h3 {
+    text-align: center;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+main.tempor a {
+    text-decoration: none;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5AB963;
+    display: block;
+}
+
+main.finish {
+    padding: 150px 0px;
+}
+
+
+main.finish a {
+    text-decoration: none;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5AB963;
+    display: flex;
+    margin-bottom: 26px;
+    align-items: center;
+
+}
+
+main.finish a::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #5AB963;
+    margin-left: 20px;
+}
+
+main.finish h2 {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+main.finish h2 span {
+    font-weight: 100;
+    font-family: 'Libre Franklin';
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+main.finish button {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #5AB963;
+    border-radius: 4px;
+    padding: 15px 30px;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    padding: 120px 0px 170px;
+    background: #0A0E1A;
+}
+
+footer .pol {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer .pol ul {
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+footer .pol ul li:focus {
+    outline: none;
+}
+
+footer .pol ul li {
+    text-decoration: none;
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    margin-bottom: 25px;
+
+
+}
+
+footer .pol p {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+footer .pol .icon i {
+    margin-right: 20px;
+    background: transparent;
+    color: white;
+}
+
+@media (max-width:991px) {
+    header nav a.logo {
+        text-align: center;
+    }
+
+    main.tempor h2 {
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+        margin-bottom: 5px;
+    }
+
+    main.tempor p {
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18px;
+        color: #999999;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width:575px) {
+    body {
+        text-align: center;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin-bottom: 5px;
+    }
+
+    header nav ul li.abo {
+        display: block;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    header nav ul li.abo::before {
+        margin: 0;
+        padding: 0px;
+        text-align: center;
+        margin: 0;
+    }
+
+    header nav ul li button {
+        border: 2px solid #FFFFFF;
+        border-radius: 4px;
+        background: transparent;
+        font-family: 'Libre Franklin';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 4px 12px;
+        color: #FFFFFF;
+    }
+
+    header .header_title h1 {
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 1px;
+        letter-spacing: 1px;
+    }
+
+    header .header_title button {
+        font-family: 'Libre Franklin';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #5AB963;
+        border-radius: 4px;
+        border: none;
+        padding: 7px 18px;
+    }
+
+    section.prom {
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    main.illud {
+        width: 100%;
+        text-align: center;
+        padding: 45px 0px 0px;
+    }
+
+    main.illud a {
+        text-decoration: none;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #5AB963;
+        display: block;
+        margin-bottom: 49px;
+    }
+
+    main.tempor {
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    main.tempor .yut:first-of-type {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    main.tempor .tuy {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    main.finish {
+        padding: 60px 0px;
+    }
+
+    main.finish button {
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #5AB963;
+        border-radius: 4px;
+        padding: 6px 14px;
+        border: none;
+    }
+
+    footer .pol {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    section.prom .box {
+        background: #FAFAFA;
+        padding: 34px;
+    }
+
+    section.prom .box p {
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        color: #999999;
+        margin: 0;
+    }
+}
+
+/* xxl-1222
+xl-992-1199
+lg-768-991
+md-576-767
+sm-320-575 */
