@@ -1,0 +1,446 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background: url("./img/Background.png") no-repeat center / cover;
+    padding-top: 34px;
+    padding-bottom: 103px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+header nav {
+    margin-bottom: 60px;
+}
+
+header .icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .icons .icon {
+    padding: 10px 12px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+header .header_title {
+    width: 100%;
+}
+
+header .header_title h1 {
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+
+header .header_title h6 {
+    margin-bottom: 35px;
+}
+
+.carousel-inner {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./img/Group\ 66.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(./img/Group\ 68.svg);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    color: #000;
+}
+
+main.our {
+    width: 100%;
+    text-align: center;
+    padding: 130px 0px;
+}
+
+main.our h2 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #180202;
+    margin-bottom: 80px;
+}
+
+.good {
+    width: 100%;
+    padding-bottom: 130px;
+}
+
+.good h1 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    margin-bottom: 60px;
+    color: #180202;
+}
+
+.good .learn {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.good .learn .num {
+    margin-left: 20px;
+}
+
+.good .learn img {
+    object-fit: contain;
+}
+
+.good .learn .num h6 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 140%;
+    color: #180202;
+    margin-bottom: 5px;
+}
+
+.good .learn .num p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #180202;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.good .learn .num a {
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FF4948;
+
+}
+
+.good .ilk {
+    width: 100%;
+}
+
+main.lates {
+    width: 100%;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+main.lates .read {
+    padding: 25px;
+}
+
+main.lates .yut {
+    margin-bottom: 40px;
+}
+
+main.lates h1 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #180202;
+    margin-bottom: 25px;
+}
+
+main.lates h6 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #180202;
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+main.lates h6.ter {
+    margin-top: 25px;
+}
+
+main.lates p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    color: #180202;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main.lates p span {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #180202;
+
+}
+
+main.get {
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+main.get h2 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+main.get p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+}
+
+main.get p svg {
+    margin-right: 20px;
+}
+
+main.get p:last-of-type {
+    border: none;
+}
+
+main.sub {
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+main.sub .ribe {
+    background: url("./img/freepik--background-complete--inject-3.png") no-repeat center / cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main.sub .ribe .lorem {
+    padding: 50px 100px;
+    background: #FFF4F4;
+    border-radius: 20px;
+}
+
+main.sub .ribe .lorem h6 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #180202;
+    margin-bottom: 5px;
+}
+
+main.sub .ribe .lorem p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #180202;
+    opacity: 0.7;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+main.sub .ribe .lorem form {
+    background: #FFFFFF;
+    border-radius: 73px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main.sub .ribe .lorem form input {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 73px;
+}
+
+main.sub .ribe .lorem form input:focus {
+    outline: none;
+}
+
+main.sub .ribe .lorem form button {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 30px;
+    background: #FF4948;
+    border-radius: 50px;
+}
+
+footer {
+    background: #E86564;
+    padding: 60px 0px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF;
+    transform: rotate(-0.24deg);
+}
+
+@media (max-width:991px) {
+    body {
+        text-align: center;
+    }
+}
+
+@media (max-width:575px) {
+    body {
+        text-align: center;
+    }
+
+    main.sub .ribe .lorem {
+        background: #FFF4F4;
+        border-radius: 20px;
+        padding: 20px 0px;
+    }
+
+    main.sub .ribe .lorem form button {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 140%;
+        color: #FFFFFF;
+        border: none;
+        padding: 5px 5px;
+        background: #FF4948;
+        border-radius: 50px;
+    }
+
+    main.sub .ribe .lorem form input {
+        border: none;
+        padding: 5px 5px;
+        border-radius: 73px;
+    }
+
+    header .icons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    main.our {
+        width: 100%;
+        text-align: center;
+        padding: 80px 0px;
+    }
+
+    main.our h2 {
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 130%;
+        color: #180202;
+        margin-bottom: 20px;
+    }
+
+    .good h1 {
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 130%;
+        margin-bottom: 60px;
+        color: #180202;
+    }
+
+    main.lates h1 {
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 130%;
+        color: #180202;
+        margin-bottom: 15px;
+    }
+
+    main.lates p {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 140%;
+        color: #180202;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main.get {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    main.lates {
+        width: 100%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        margin: 20px 0px;
+    }
+}
